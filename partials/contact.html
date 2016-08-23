@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Bootstrap Home</title>
+	<link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<script type="text/javascript" src="../assets/js/jquery.js"></script>
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+		<a class="navbar-brand" href="../index.html">
+			<span class="glyphicon glyphicon-home"></span> LFC BLOG
+		</a>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#coll" >
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+		</div>
+		<div class="collapse navbar-collapse navbar-right" id="coll">
+			<ul class="nav navbar-nav">
+				<li><a href="../index.html">Home</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html" class="active">Contact</a></li>
+				<li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action 1</a></li>
+		            <li><a href="#">Action 2</a></li>
+		            <li><a href="#">Action 3</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Action 4</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Action 5</a></li>
+		          </ul>
+	        </li>
+			</ul>
+		</div>
+	</div>	
+</div>
+<!-- End of navigation bar-->
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-5">
+		<h4>Contact Address</h4>
+		<div class="panel panel-default">
+		<div class="panel-body">
+			
+				<address>
+				<strong>Liverpool News</strong><br/>
+					#310, kalanki,<br>
+					Kathmandu,<br>
+					Nepal
+			</address>
+		</div>
+		</div>
+		</div>
+
+		<div class="col-md-7">
+		<h4>Contact form</h4>
+		<div class="panel panel-default">
+		<div class="panel-body">
+		<form method="post" id="contactform" action="" role="form">
+			  <div class="form-group">
+			       <label for="contactname">Name</label>
+			       <input type="text" class="form-control" id="contactname" placeholder="Enter Name">
+			  </div>
+			  <div class="form-group">
+			       <label for="contactemail">Email Address</label>
+			       <input type="email" class="form-control" id="contactemail" placeholder="Enter Email">
+			  </div>
+			  <div class="form-group">
+			       <label for="contactsubject">Subject</label>
+			       <input type="text" class="form-control" id="contactsubject" placeholder="Enter Subject">
+			  </div>
+			  <div class="form-group">
+			       <label for="contactmessage">Message</label>
+			       <textarea class="form-control" id="contactmessage" rows="5"></textarea>
+			  </div>
+			  <button type="button" class="btn btn-default" id="contactbtn"> Submit </button>
+
+		</form>
+
+		</div>
+		</div>	
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Footer-->
+
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<h4>Contact Address</h4>
+				<address>
+					#310, kalanki,<br>
+					Kathmandu,<br>
+					Nepal
+				</address>
+			</div>
+			<div class="col-md-5 col-md-offset-2">
+				<h4>Give Us a Call</h4>
+				<p><span class="glyphicon glyphicon-phone-alt" style="color: red; font-size: 30px"> </span><span style="font-size: 20px"> +977-01-444444</p>
+			</div>
+		</div>
+		<div class="bottom-footer">
+			<div class="col-md-5">&copy; Ravi Tiwari,2014</div>
+			<div class="col-md-7">
+				<ul class="footer-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="../index.html">Link</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script type="text/javascript" src="../assets/js/validate.js"></script>
+</body>
+</html>
